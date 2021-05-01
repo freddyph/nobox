@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:sans-serif;
+}
+h1 {
+    margin-bottom: 24px;
+}
+h2 {
+    color: #E14646;
+    margin-bottom: 8px;
+}
+h3 {
+    margin-bottom: 20px;
+    transform: translate(0, 400%);
+}
+header {
+    background-color: #E14646;
+    /* position: fixed; */
+    top: 0;
+    min-height: 90px;
+    width: 1440px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body {
+    background-color: #ECECEC;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: black;
+    font-size: 13px;
+}
+nav {
+    margin-top: 35px;
+    margin-left: 330px;
+    margin-right: 170px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px; */
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+
+nav ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer {
+    background-color: black;
+    height: 370px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.logo {
+    height: 90px;
+    width: 720px;
+    background-image: url("img/ArbetsprovLogo.svg");
+    /* height: 650px; */
+    /* background-position: 0 -45px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 80px;
+}
+.btn {
+    width: 135px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: white;
+    color: #E14646;
+    margin-top: 30px;
+}
+.btnred{
+    width: 135px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #E14646;
+    color: white;
+    margin-top: 30px;
+}
+#nyhet {
+    color: black;
+    font-size: 25px;
+}
+.smaller {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.logo-bottom{
+    height: 90px;
+    width: 720px;
+    background-image: url("img/ArbetsprovLogo.svg");
+    /* height: 650px; */
+    background-position: 0 -110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    margin: auto;
+}
+.logo-bottom img{
+    height: auto;
+    width: 100%;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    width: 425px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.bottom-link {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.bottom-links {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.bottom-first {
+    color: #7B7C7D;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* br {
+    border-bottom: 5px solid black;
+} */
+.column {
+  display: flex;
+  /* flex-direction: column;
+  flex-basis: 100%;
+  flex: 1; */
+}
+.bigpart {
+    width: 640px;
+    margin-top: 77px;
+    margin-left: 210px;
+    margin-right: 15px;
+    color: black;
+}
+.smallimage {
+    width: 330px;
+    margin-top: 111px;
+    margin-right: 210px;
+
+}
+.headline {
+    /* font-weight: bold; */
+    color: #E14646;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.level {
+    margin-bottom: 20px;
+}
+.red {
+    color: #E14646;
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+    background-color: #E14646;
+}
+#second {
+    background-color: white;
+    height: 605px;
+}
+.third {
+    background-color: #F4F4F4;
+    height: 330px;
+}
+.forth {
+    background-color: #E14646;
+    height: 400px;
+}
+#page-wrapper {
+  position: relative;
+}
+#headerimage {
+    /* display: flex;
+    height: 200px; */
+    width: 60vw;
+}
+#first-image {
+    background-image: url("img/climb.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#first-text {
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    margin-bottom: 5px;
+    width: 1440px;
+
+}
+#left {
+    width: 50%;
+    height: 400px;
+    /* display: flex; */
+    /* flex: 1 1 0px; */
+    float:left;
+}
+#left img{
+    width: 100%;
+    height: 400px;
+    /* display: flex;
+    flex: 1 1 0px; */
+}
+#right {
+    width: 50%;
+    height: 400px;
+    /* display: flex; */
+    float:right;
+    padding: 80px 0 0 49px;
+    border-left: 5px solid #E14646;
+    margin: auto;
+}
+#right:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #E14646;
+}
+
+.forth-p {
+    color: white;
+    margin-bottom: 8px;
+    transform: translate(0,80px);
+}
+#pricing {
+    display: flex;
+    /* grid-direction: row; */
+    justify-content: space-evenly;
+    /* flex-wrap: nowrap; */
+    margin-bottom: 20px;
+}
+.thirdtwo {
+    display: flex;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}
+.nyhetsbrev {
+    width: 50%;
+    background-color: #F4F4F4;
+    padding-left: 210px;
+    /* float: left; */
+}
+.epost {
+    width: 50%;
+    background-color: #F4F4F4;
+    text-align: center;
+    /* transform: translate(-50%,-50%) */
+    /* float: right; */
+}
+input {
+    width:325px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 5px;
+    padding-left: 20px;
+}
+#number1 {
+    transform: translate(0,-30px);
+    /* position: absolute; */
+    background-color: #E14646;
+    width: 228px;
+    height: 293px;
+    margin-left: 312px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+#number2 {
+    transform: translate(0,-20px);
+    background-color: white;
+    width: 265px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 60px;
+    border: 5px solid #E14646;
+}
+#number3 {
+    transform: translate(0,-30px);
+    background-color: #E14646;
+    width: 228px;
+    height: 293px;
+    margin-right: 312px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.smallimage > img {
+    height: 72px;
+    width: 123px;
+    float: left;
+    
+    margin-right: 15px;
+}
+.smallimage a {
+    color: #E14646;
+    margin-bottom: 20px;
+}
